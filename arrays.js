@@ -18,4 +18,13 @@ function addElementToEndOfArray(array, element)
   return(safeArr);
 }
 
-function
+function destructivelyAddElementToEndOfArray(array, element)
+{
+  array.push(element);
+  return(array);
+}
+
+function accessElementInArray(array, index)
+{
+  return(array[index]);
+}
